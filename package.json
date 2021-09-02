@@ -1,12 +1,24 @@
 {
+  "name": "rudiruhl-workflow",
+  "version": "1.0.0",
+  "description": "This is my standard workflow for frontend-development. I am using following tools:",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rudiruhl/rudiruhl-workflow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rudiruhl/rudiruhl-workflow/issues"
+  },
+  "homepage": "https://github.com/rudiruhl/rudiruhl-workflow#readme",
   "devDependencies": {
     "browser-sync": "^2.27.5",
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-install": "^1.1.0",
-    "gulp-minify": "^3.1.0",
-    "gulp-sass": "^5.0.0",
-    "gulp-yarn": "^3.0.0"
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0"
   }
 }
