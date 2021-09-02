@@ -1,26 +1,17 @@
 var gulp = require('gulp');
-var sass = require('gulp-sass');
+var sass = require('gulp-sass')(require('sass'));
 var browserSync = require('browser-sync').create();
 
-
-gulp.task('sass', function() {
+// compile scc into css
+function style (){
+  // 1. where ist my scss file
   return gulp.src('src/scss/**/*.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('dist/css'))
-    .pipe(browserSync.reload({
-      stream: true
-    }));
-});
+  // 2. pass that file through sass compiler
+  .pipe(sass())
+  // 3. where do Isave the compiled css?
+  .pipe(gulp.dest('dist/css'))
+  // 4. stream changes to all browser
+  .pipe(browserSync.stream());
+}
 
-gulp.task('browserSync', function() {
-  browserSync.init({
-    server: {
-      baseDir: ''
-    },
-  });
-});
-
-gulp.task('watch', ['browserSync', 'sass'], function() {
-  gulp.watch('src/css/**/*.sass', ['sass']);
-  gulp.watch('src/css/**/*.scss', ['sass']);
-});
+exports.style = style;
