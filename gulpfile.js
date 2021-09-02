@@ -4,9 +4,9 @@ var browserSync = require('browser-sync').create();
 
 
 gulp.task('sass', function() {
-  return gulp.src('assets/css/**/*.scss')
+  return gulp.src('src/scss/**/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('assets/css'))
+    .pipe(gulp.dest('dist/css'))
     .pipe(browserSync.reload({
       stream: true
     }));
@@ -21,6 +21,6 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function() {
-  gulp.watch('assets/css/**/*.sass', ['sass']);
-  gulp.watch('assets/css/**/*.scss', ['sass']);
+  gulp.watch('src/css/**/*.sass', ['sass']);
+  gulp.watch('src/css/**/*.scss', ['sass']);
 });
