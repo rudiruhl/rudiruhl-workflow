@@ -14,4 +14,15 @@ function style (){
   .pipe(browserSync.stream());
 }
 
+function watch() {
+  browserSync.init({
+    server: {
+      baseDir: './'
+    }
+  });
+  gulp.watch('src/scss/**/*.scss', style);
+  gulp.watch('*.html').on('change', browserSync.reload);
+}
+
 exports.style = style;
+exports.watch = watch;
