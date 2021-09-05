@@ -1,6 +1,6 @@
 # GulpJS, SASS & BrowserSync workflow
 
-[![wakatime](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow.svg)](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow)
+[![wakatime](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow.svg)](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow)[![Build Status](https://app.travis-ci.com/rudiruhl/rudiruhl-workflow.svg?branch=master)](https://app.travis-ci.com/rudiruhl/rudiruhl-workflow)
 
 *This repo is **"work in progress"**. I´m changing a lot of things to be better.* :grinning:
 
