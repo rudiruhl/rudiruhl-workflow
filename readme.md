@@ -1,19 +1,91 @@
+
 # GulpJS, SASS & BrowserSync workflow
 
-[![wakatime](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow.svg)](https://wakatime.com/badge/github/rudiruhl/rudiruhl-workflow)[![Build Status](https://app.travis-ci.com/rudiruhl/rudiruhl-workflow.svg?branch=master)](https://app.travis-ci.com/rudiruhl/rudiruhl-workflow)
+![](https://david-dm.org/rudiruhl/rudiruhl-workflow.svg)![GitHub Issues](https://img.shields.io/github/issues/rudiruhl/rudiruhl-workflow) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rudiruhl/rudiruhl-workflow) ![GitHub Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/rudiruhl/rudiruhl-workflow)
 
-*This repo is **"work in progress"**. I´m changing a lot of things to be better.* :grinning:
+A starter project including full setup for GulpJS, SASS, AutoPrefixer & BrowserSync.
 
-### :zap: Following tools are actual in this built:
 
-- [gulp](http://github.com/gulpjs)
-- [gulp-sass](https://github.com/dlmanning/gulp-sass)
-- [BrowserSync](http://github.com/BrowserSync/browser-sync)
-- [gulp-postcss](https://github.com/postcss/gulp-postcss)
-- [bourbon](http://github.com/thoughtbot/bourbon)
+## Following Tools are actual in this build
 
- #### :hourglass_flowing_sand: Plugins to add in near future:
+- [gulp](http://github.com/gulpjs) [![npm version](https://badge.fury.io/js/gulp.svg)](https://badge.fury.io/js/gulp)
+- [gulp-sass](https://github.com/dlmanning/gulp-sass)[![npm version](https://badge.fury.io/js/gulp-sass.svg)](https://badge.fury.io/js/gulp-sass)
+- [BrowserSync](http://github.com/BrowserSync/browser-sync)[![npm version](https://badge.fury.io/js/browser-sync.svg)](https://badge.fury.io/js/browser-sync)
+- [gulp-postcss](https://github.com/postcss/gulp-postcss)[![npm version](https://badge.fury.io/js/gulp-postcss.svg)](https://badge.fury.io/js/gulp-postcss)
+- [bourbon](http://github.com/thoughtbot/bourbon)[![npm version](https://badge.fury.io/js/bourbon.svg)](https://badge.fury.io/js/bourbon)
 
- - [jekyll](http://github.com/jekyll/jekyll)
- - [bootstrap](https://github.com/twbs/bootstrap)
- - *and a little bit more* :see_no_evil::sunglasses:
+
+
+  
+## Installation
+
+To use this starter project, you'll need the following things installed on your machine.
+
+NodeJS
+
+```bash
+  use the installer from https://nodejs.org
+```
+GulpJS
+
+```bash
+  npm install -g gulp
+
+  (mac users may need sudo)
+```
+    
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/rudiruhl/rudiruhl-workflow
+```
+
+Go to the project directory
+
+```bash
+  cd rudiruhl-workflow
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+  
+## Usage
+### Development
+To compile scss into css
+
+```bash
+gulp style
+```
+To watch changes and reload browser
+
+```bash
+gulp watch
+```
+
+To finalize your files for distribution
+
+```bash
+gulp dist
+```
+
+
+
+
+  
+## Roadmap
+
+- Add jekyll
+
+- Add bootstrap
+
+- Add more plugins
+
+
+
+  
