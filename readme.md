@@ -1,7 +1,7 @@
 
 # GulpJS, SASS & BrowserSync workflow
 
-![](https://david-dm.org/rudiruhl/rudiruhl-workflow.svg)! [GitHub Issues](https://img.shields.io/github/issues/rudiruhl/rudiruhl-workflow) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rudiruhl/rudiruhl-workflow) ![GitHub Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/rudiruhl/rudiruhl-workflow)
+![](https://david-dm.org/rudiruhl/rudiruhl-workflow.svg) ![GitHub Issues](https://img.shields.io/github/issues/rudiruhl/rudiruhl-workflow) ![GitHub Pull Requests](https://img.shields.io/github/issues-pr/rudiruhl/rudiruhl-workflow) ![GitHub Closed Pull Requests](https://img.shields.io/github/issues-pr-closed/rudiruhl/rudiruhl-workflow)
 
 A starter project including full setup for GulpJS, SASS, AutoPrefixer & BrowserSync.
 
