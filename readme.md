@@ -12,7 +12,6 @@ A starter project including full setup for GulpJS, SASS, AutoPrefixer & BrowserS
 - [gulp-sass](https://github.com/dlmanning/gulp-sass) [![npm version](https://badge.fury.io/js/gulp-sass.svg)](https://badge.fury.io/js/gulp-sass)
 - [BrowserSync](http://github.com/BrowserSync/browser-sync) [![npm version](https://badge.fury.io/js/browser-sync.svg)](https://badge.fury.io/js/browser-sync)
 - [gulp-postcss](https://github.com/postcss/gulp-postcss) [![npm version](https://badge.fury.io/js/gulp-postcss.svg)](https://badge.fury.io/js/gulp-postcss)
-- [bourbon](http://github.com/thoughtbot/bourbon) [![npm version](https://badge.fury.io/js/bourbon.svg)](https://badge.fury.io/js/bourbon)
 
 
 
