@@ -27,6 +27,6 @@
   },
   "dependencies": {
     "autoprefixer": "^10.3.4",
-    "cssnano": "^5.0.8"
+    "cssnano": "^5.0.9"
   }
 }
