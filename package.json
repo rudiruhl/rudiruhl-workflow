@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/rudiruhl/rudiruhl-workflow#readme",
   "devDependencies": {
-    "browser-sync": "^2.27.5",
+    "browser-sync": "^2.27.10",
     "gulp": "^4.0.2",
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.0.0",
